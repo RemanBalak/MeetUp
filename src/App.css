@@ -2,12 +2,11 @@
 .App {
   text-align: center;
   padding: 2% 5%;
-  background-color: #afd5aa;
+  background-color: #cfccd6;
 }
 
 .App * {
   box-sizing: border-box;
-  background-color: #f0f2ef;
 }
 
 .filters {
@@ -16,6 +15,7 @@
   margin-top: 16px;
   margin-bottom: 24px;
   align-items: flex-end;
+  background-color: #58b09c;
 }
 
 ul {
@@ -93,6 +93,10 @@ input[type='number'] {
   border: 1px solid #ccc;
   border-radius: 4px;
   position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  background-color: #58b09c;
 }
 
 .details-btn {
@@ -102,7 +106,7 @@ input[type='number'] {
   box-shadow: 0 0.2em hsla(0, 0%, 0%, 20%);
   width: 120px;
   cursor: pointer;
-  background-color: #cfccd6;
+
   margin-top: 5px;
 }
 .details-btn:hover {
@@ -156,6 +160,7 @@ input[type='number'] {
 .data-vis-wrapper .recharts-responsive-container {
   min-width: 100%;
   display: flex;
+  background-color: white;
 }
 .recharts-surface {
   overflow: visible;
