@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
 .App {
   text-align: center;
-  padding: 2% 5%;
-  background-color: #cfccd6;
+
+  background-color: #d1cbde;
 }
 
 .App * {
@@ -189,6 +189,7 @@ input[type='number'] {
 }
 .google-btn:hover {
   box-shadow: 0 0 6px #4285f4;
+  cursor: pointer;
 }
 .google-btn:active {
   background: #1669f2;
@@ -216,6 +217,9 @@ input[type='number'] {
   font-size: 14px;
   letter-spacing: 0.2px;
   font-family: 'Roboto';
+}
+.btn-text:hover {
+  cursor: pointer;
 }
 
 label {
@@ -246,9 +250,12 @@ label .num {
 @media only screen and (max-width: 991px) {
   .filters {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .filters label {
     margin-top: 8px;
+  }
+  .Eventslabel {
+    display: block;
   }
 }
