@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
+body {
+  background-color: #d6d9cd;
+}
 .App {
   text-align: center;
-
-  background-color: #d1cbde;
+  margin: 15px;
 }
 
 .App * {
@@ -15,7 +17,7 @@
   margin-top: 16px;
   margin-bottom: 24px;
   align-items: flex-end;
-  background-color: #58b09c;
+  background-color: #64bea8;
 }
 
 ul {
@@ -96,7 +98,7 @@ input[type='number'] {
   border-style: solid;
   border-width: 2px;
   border-color: grey;
-  background-color: #58b09c;
+  background-color: #64bea8;
 }
 
 .details-btn {
