@@ -5,7 +5,7 @@ This is a serverless, progressive web application (PWA) with React, which uses a
 
 The application uses the Google Calendar API to fetch upcoming events
 
-A demo can be previewed here: [Meet App](https://nejla-eh.github.io/meet/).
+A demo can be previewed here: [Meet App](https://remanbalak.github.io/meet/).
 
 ## Features
 
